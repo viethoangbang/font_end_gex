@@ -1,0 +1,255 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #111;
+}
+.container{
+    width: 1300px;
+    /* height: 12px; */
+    /* background-color: black; */
+}
+.contact_header{
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 60px;
+    height: 40px;
+}
+.contact_header>span{
+    gap: 20px;
+    display: flex;
+}
+.contact_header>span>i{
+    cursor: pointer;
+}
+.contact_header>span>i:hover{
+    color: rgb(255, 255, 255, 0.8);
+}
+.hero{
+    width: 1300px;
+    height: 300px;
+    background-color: #8f0000;
+    position: relative;
+}
+.banner_text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.banner_text>h1{
+    color: white;
+    font-size: 50px;
+}
+.banner_text>p{
+    color: white;
+}
+.hero>img{
+    position: absolute;
+    /* mix-blend-mode: multiply; */
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.big_text{
+    font-weight: 800;
+}
+.navbar{
+    width: 1300px;
+    height: 60px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    flex: 1;
+}
+.nav_left{
+    align-items: center;
+    display: flex;
+}
+.nav_left>a{
+    padding:0 15px;
+    line-height: 60px;
+    text-decoration: none;
+    color: white;
+}
+.nav_left>i{
+    color: white;
+    padding: 0 13px;
+    line-height: 60px;
+    font-size: large;
+}
+.nav_left>a:hover{
+    background-color: #A90101;
+}
+.nav_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav_right>i{
+    color: white;
+    padding: 0 10px;
+    line-height: 60px;
+}
+.nav_right>a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 60px;
+    background-color: #A90101;
+    font-weight: 600;
+}
+.nav_right>a:hover{
+    background-color: #a90101e3;
+}
+.list_tag{
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.945);
+}
+.list_tag>p>strong{
+    font-weight: bolder;
+}
+.list_tag>p:hover{
+    background-color: #e7e5e5;
+}
+.list_tag>p{
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0,0.3);
+    line-height: 30px;
+    padding: 0 15px;
+}
+.list_tag>p:nth-child(1){
+    background-color: #e7e5e5;
+}
+.page1{
+    width: 1300px;
+    padding: 0 50px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    height: 950px;
+}
+.type1{
+    width: 300px;
+    padding: 20px 10px;
+}
+.type1>img{
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.comment{
+    /* border: 1px solid black; */
+    padding: 15px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: small;
+    margin: 10px 0;
+    background-color:mintcream;
+}
+.comment>span{
+    font-size: smaller;
+}
+.title1{
+    position: relative;
+    height: 20px;
+}
+.title1>hr{
+    border: 2px solid #A90101;
+    width: 100%;
+    margin-bottom: 5px;
+    /* position: absolute; */
+}
+.title1>h2{
+    /* position: absolute; */
+    width: 200px;
+}
+.type2{
+    width: 700px;
+    padding: 20px 10px;
+
+}
+.type2>img{
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.title2>hr{
+    border: 2px solid #A90101;
+    width: 100%;
+    margin-bottom: 5px;
+    /* position: absolute; */
+}
+.type3{
+    width: 300px;
+    padding: 20px 10px;
+}
+.type3>span>img{
+    width: 40%;
+    margin: 0 auto;
+    background-size: cover;
+}
+.title3>hr{
+    border: 2px solid #A90101;
+    width: 100%;
+    margin-bottom: 5px;
+    /* position: absolute; */
+}
+.new3{
+    cursor: pointer;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: mintcream;
+    padding: 10px 8px;
+    text-align: center;
+}
+footer{
+    height: 100px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.brand_name h2{
+    font-weight: 800;
+    color: #A90101;
+}
+.brand_name p{
+    color: white;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+}
+.contact h3{
+    font-weight: 700;
+    color: #A90101;
+}
+.contact p,.contact a{
+    color: white;
+}
