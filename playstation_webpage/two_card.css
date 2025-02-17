@@ -1,0 +1,86 @@
+.two_card{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+.two_card h2{
+    width: 100%;
+}
+.two_card_item{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.274);
+    width: 40%;
+    border-radius: 15px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    img{
+        object-fit: cover;
+    }
+    span{
+        display: flex;
+        gap: 0.5rem;
+        margin: 5px 1rem;
+        width: fit-content;
+        height: fit-content;
+        p{
+            border: none;
+            color: white;
+            background-color: #111;
+            font-size: 12px;
+            padding: 1px 4px;
+        }
+    }
+    h4{
+        margin: 5px 1rem;
+        font-size: 20px;
+    }
+    .detail_game_tag{
+        font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 1rem;
+        li{
+            width: 50%;
+            text-align: start;
+
+        }
+    }
+    span[name="price"]{
+        align-self: start;
+        justify-self: end;
+        margin-top: auto;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+    }
+    button{
+        width: 90%;
+        align-self: center;
+        border: none;
+        background-color: #111;
+        border-radius: 15px;
+        padding: 5px 0;
+        color: white;
+        font-weight: 700;
+        cursor: pointer;
+        margin: 5px 0;
+    }
+}
+
+.content_3{
+    width: 100%;
+    label{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        a{
+            font-weight: 500;
+            color: #111;
+        }
+    }
+}

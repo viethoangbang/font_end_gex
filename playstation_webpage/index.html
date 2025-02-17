@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <link rel="icon" href="./assets/iconweb.svg">
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
     <!-- Dùng icon của fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <!-- Dùng svg của simpleicons.org -->
     <!-- Font CypherFunk -->
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
-    <title>Play Station store</title>
+    <title>PlayStation Store</title>
 </head>
+
 <body>
     <div class="container">
         <nav>
@@ -22,7 +25,7 @@
             <a href="">New Arrivals</a>
             <a href="">Support</a>
             <span class="search">
-                <i class="fa-solid fa-magnifying-glass" ></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
                 <input type="text" placeholder="Search...">
             </span>
             <a href="">Cart</a>
@@ -44,7 +47,8 @@
         <div class="banner">
             <img src="https://images6.alphacoders.com/133/thumb-1920-1336181.png" alt="banner">
             <h1>Cyber<span>Punk</span> <button>Play now</button></h1>
-            <p class="title_hover" class="active">Cypherpunk game: hackers, encryption, privacy, anti-surveillance, digital freedom.</p>
+            <p class="title_hover" class="active">Cypherpunk game: hackers, encryption, privacy, anti-surveillance,
+                digital freedom.</p>
         </div>
         <div class="list_detail_img">
             <i id="btn_left" onclick="slide_left()" class="fa-solid fa-angle-left"></i>
@@ -53,6 +57,208 @@
             </div>
             <i id="btn_right" onclick="slide_right()" class="fa-solid fa-angle-right"></i>
         </div>
+        <div class="main_content">
+            <section class="content_left">
+                <div class="detail_game"> <!--Chứa phần detail game, sau này nếu rảnh sẽ cho tự sinh bằng js-->
+                    <h2>Cyberpunk 2077 - The Ultimate Open-World RPG</h2>
+                    <p>
+                        Cyberpunk 2077 is an open-world action RPG developed by CD Projekt Red, first released in 2020. Set in Night City—a futuristic metropolis filled with advanced technology, crime, and power struggles—players take on the role of V, a mercenary whose appearance, skills, and playstyle can be fully customized to suit their preferences. The game offers a highly immersive experience, allowing players to shape V’s story through meaningful choices and interactions with a diverse cast of characters.
+                        
+                        One of Cyberpunk 2077’s biggest strengths is its deep narrative. Players unravel the mysteries of Night City while engaging with characters like Johnny Silverhand, a rebellious rocker portrayed by Keanu Reeves. The game's branching storylines ensure that decisions have lasting consequences, adding layers of replayability. Additionally, the world of Night City is meticulously crafted, featuring neon-lit streets, bustling markets, and towering skyscrapers that contribute to a dense cyberpunk atmosphere.
+                        
+                        The gameplay combines first-person shooting, melee combat, and hacking mechanics, giving players multiple ways to approach missions. V can wield an arsenal of high-tech weapons, use cybernetic enhancements to gain superhuman abilities, or hack into enemy systems for tactical advantages. The character progression system allows players to develop unique builds, specializing in stealth, brute force, or technological mastery. Vehicles also play a significant role, letting players explore the massive cityscape in style.
+                        
+                        Despite a rocky launch filled with technical issues and bugs, CD Projekt Red has since released multiple updates and improvements, refining the gameplay and fixing major problems. The game's expansion, "Phantom Liberty," introduces fresh content, a gripping spy-thriller storyline, and new mechanics that elevate the overall experience. With the updates and optimizations, Cyberpunk 2077 has regained its reputation as one of the most ambitious and visually stunning RPGs of recent years.
+                        
+                        Today, the game stands as a must-play title for fans of open-world RPGs. Whether players choose to follow the main story, engage in side quests, or simply immerse themselves in the dynamic world of Night City, Cyberpunk 2077 offers a compelling and unforgettable experience. With its breathtaking visuals, deep storytelling, and diverse gameplay options, it has cemented itself as a modern classic in the gaming industry.
+                    </p>
+                    <input type="button" value="See more">
+                </div>
+                <div class="list_bonus_item">
+                    <h2>Additional Materials</h2>
+                    <div class="card_bonus_item">
+                        <div class="bonus_item">
+                            <img src="https://images7.alphacoders.com/132/thumb-1920-1325355.jpeg">
+                            <span>Iki Island</span>
+                            <p>Additional materials</p>
+                            <span>1999$</span>
+                        </div>
+                        <div class="bonus_item">
+                            <img src="https://images4.alphacoders.com/134/thumb-1920-1340356.jpeg">
+                            <span>Deluxe Edition Content</span>
+                            <p>Additional materials</p>
+                            <span>2499$</span>
+                        </div>
+                        <div class="bonus_item">
+                            <img src="https://images5.alphacoders.com/134/thumb-1920-1348709.jpeg">
+                            <span>Iki Island</span>
+                            <p>Additional materials</p>
+                            <span>1999$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="two_card">
+                    <h2>Editions</h2>
+                    <div class="two_card_item">
+                        <img src="https://images3.alphacoders.com/131/thumb-1920-1317801.png">
+                        <span>
+                            <p>PS4</p>
+                            <p>PS5</p>
+                        </span>
+                        <h4>Standard Edition</h4>
+                        <div class="detail_game_tag">
+                            <li name="game_tag">Full version of the game</li>
+                        </div>
+                        <span name="price">2999$</span>
+                        <button>BUY</button>
+                    </div>
+                    <div class="two_card_item">
+                        <img src="https://images2.alphacoders.com/131/thumb-1920-1317789.jpeg">
+                        <span>
+                            <p>PS4</p>
+                            <p>PS5</p>
+                        </span>
+                        <h4>Standard Edition</h4>
+                        <div class="detail_game_tag">
+                            <li name="game_tag">Full version of the game</li>
+                            <li name="game_tag">Additional content: "Iki Island"</li>
+                            <li name="game_tag">PS4 theme</li>
+                            <li name="game_tag">Digital artwork</li>
+                            <li name="game_tag">Digital soundtrack</li>
+                        </div>
+                        <span name="price">4999$</span>
+                        <button>BUY</button>
+                    </div>
+                </div>
+                <div class="content_3">
+                    <label>
+                        <h3>Similar Products</h3>
+                        <a href="#gexlink">View All</a> <!--dm mệt quá rồiiiiiiiii-->
+                    </label>
+                    <div class="card_bonus_item">
+                        <div class="bonus_item">
+                            <img src="https://images6.alphacoders.com/121/thumb-1920-1216717.jpg">
+                            <span>GHOSTWIRE TOKYO</span>
+                            <p>Tango Gameworks</p>
+                            <span>1999$</span>
+                        </div>
+                        <div class="bonus_item">
+                            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRgTAUINqUV0m-APvigoBNjKkoM2iAJek8liZW7v0u9T1cy4mNn-FAXYTluG9vupawv12izZQ">
+                            <span>Wonderlands</span>
+                            <p>2K</p>
+                            <span>5499$</span>
+                        </div>
+                        <div class="bonus_item">
+                            <img src="https://images2.alphacoders.com/120/thumb-1920-1205840.jpg">
+                            <span>Death Stranding</span>
+                            <p>Kojima Productions</p>
+                            <span>2199$</span>
+                        </div>
+                        <div class="bonus_item">
+                            <img src="https://images5.alphacoders.com/137/thumb-1920-1377353.jpg">
+                            <span>Ratchet & Clank: Rift Apart</span>
+                            <p>Insomniac Games</p>
+                            <span>4999$</span>
+                        </div>
+                        <div class="bonus_item">
+                            <img src="https://picfiles.alphacoders.com/533/thumb-1920-533409.jpg">
+                            <span>Call of Duty: VANGUARD</span>
+                            <p>Infinity Ward</p>
+                            <span>7499$</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- .... -->
+            <section class="content_right">
+                <h2>4999$</h2>
+                <button name="buy">BUY</button>
+                <button name="add_to_cart">ADD TO CART</button>
+                <div class="game_info">
+                    <span>Platform</span><p>PS4, PS5</p>
+                    <span>Developer</span><p>Sucker Punch</p>
+                    <span>Publisher</span><p>Sony</p>
+                    <span>Release date</span><p>12.07.2020</p>
+                </div>
+                <div class="genres">
+                    <span>RPG</span><span>Action</span><span>Adventure</span>
+                </div>
+                <div class="languages">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Languages</th>
+                                <th>Voice-over</th>
+                                <th>Subtitles</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Russian</td>
+                                <td>✔</td>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>English</td>
+                                <td>✔</td>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>French</td>
+                                <td></td>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <td>Spanish</td>
+                                <td>✔</td>
+                                <td>✔</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#metacritic">View all languages (24)</a>
+                </div>
+                <div class="metacritic_96">
+                    <p>96</p>
+                    <span>metacritic</span>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="top_footer">
+                <img src="./assets/iconweb.svg" >
+                <label><i class="fa-solid fa-globe"></i>Country / Region: Vietnam</label>
+            </div>
+            <div class="center_footer">
+                    <div class="content">
+                    <p>PSN Terms of Service</p>
+                    <p>Purchase Cancellation Policy on PS Store</p>
+                    <p>Safety Measures</p>
+                    <p>Age Ratings</p>
+                    <p>Software Usage Terms</p>
+                    <p>Careers at PlayStation</p>
+                    </div>
+                
+                    <div class="content">
+                    <p>Support Service</p>
+                    <p>Privacy Policy & Cookie Usage</p>
+                    <p>Website Terms of Use</p>
+                    <p>Legal Information</p>
+                    <p>About Us</p>
+                    <p>PlayStation & the Environment</p>
+                    </div>
+            </div>
+            <div class="bottom_footer">
+                <label>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </label>
+                <h3>Sony Interactive Entertainment</h3>
+            </div>
+        </footer>
     </div>
+    
 </body>
+
 </html>
